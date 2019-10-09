@@ -1,0 +1,42 @@
+.navbar{
+  box-shadow: 2px 2px 5px #337ab7;
+  opacity: .9%;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+navbar .nav-item .nav-link{
+  color: #fff;
+
+}
+header{
+  margin-top: 5%;
+
+}
+
+/*estilos para el fndo*/
+.main-header{
+  position: relative;
+  background: url(../img/background.jpg);
+  background-size: cover;
+  min-height: 200px;
+}
+
+.background-overlay{
+  background: rgba(48, 51, 107,0.7);/*el numero final es el numero de intensidad*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.form-control, .btn{
+  border-radius: 0;
+
+}
+
+.team, footer{
+  background: #30336b;
+}

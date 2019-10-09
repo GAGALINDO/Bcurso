@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EMERKA</title>
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+    <!-- BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- custom css-->
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- SCROOLL REVEAL JS LIBRARY CDN -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  </head>
+  <body>
+
+  <!-- navegación traida de la documentacion de bootstrap-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">  <!-- agregar margen-->
+      <a class="navbar-brand" href="/"> <!-- colocando _/ envia an inicion-->
+        <img src="img/logo.png" alt="logo" style="width: 90%">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav"><!-- se haga chico-->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#header">About</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#caracteristicas">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- Header-->
+  <header class="main-header" id="header">
+  <div class="background-overlay text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center justify-content-center align-self-center">
+          <h1> EMERKA</h1>
+          <p>Agencia de marketing digital y desarrollo web</p>
+          <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+            Leer más
+
+          </a>
+        </div>
+        <div class="col-md-6">
+            <img src="img/product.png" alt="marketing" style="width: 60%"
+            class="img-fluid d-none d-sm-block"><!-- los que empiecen don d son para ocultar imagen en tamaños pequeños-->
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </header>
+
+<!-- newsletter-->
+  <section class="bg-dark text-white py-5 " id="newsletter">
+    <div class="container">
+    <p>Suscríbete al newsletter</p>
+    <div class="row">
+      <div class="col-md-4">
+        <input type="text" class="form-control form-control-lg" placeholder="Ingrese su nombre">
+      </div>
+      <div class="col-md-4">
+        <input type="email" class="form-control form-control-lg" placeholder="Ingrese su Email">
+       </div>
+      <div class="col-md-4">
+        <button class="btn btn-primary btn-lg btn-block">
+          Suscríbete
+        </button>
+     </div>
+    </div>
+    </div>
+  </section>
+
+<!-- caracteristicas-->
+  <section class="py-5" id="caracteristicas">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card text-center bg-primary text-white">
+          <div class="card-body">
+            <h3 class="">Marketing Digital </h3>
+            <p>
+              Estrategias que ayudan a potencializar tus ventas y a posicionar tu marca.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center border-primary">
+          <div class="card-body">
+            <h3 class="">Desarrollo Web  </h3>
+            <p>
+              Tu negocio con presencia en la nueva era digital, Apps web y móviles.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center bg-primary text-white">
+          <div class="card-body">
+            <h3 class="">Marketing Digital  </h3>
+            <p>
+              <p>Email-MKT Posicionamiento web Redes Sociales DataBase MKT </p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+<!-- Acerca de-->
+   <section class="m5 text-center bg-light" id="about">
+     <div class="container">
+       <div class="row">
+         <div class="m-5">
+           <h3>¿Por qué contratar nuestros servicios?</h3>
+           <p>
+             Somos una Agencia de Marketing Digital y Desarrollo Web integrada por gente con más de 15 años de experiencia en el área de servicios digitales. Hacemos realidad tus ideas.
+           </p>
+         </div>
+       </div>
+     </div>
+   </section>
+
+<!-- Acordeón-->
+  <section class="container text-center p-5">
+      <div class="row">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne"><!-- titulo-->
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Email Marketing
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body"><!-- Contiene el texto-->
+                Segmentamos adecuadamente, analizamos resultados, generamos mensajes relevantes y hacemos un análisis para que los resultados mejoren en cada nueva campaña enviada a su base de datos.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Manejo de Redes Sociales
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Creamos sus sitios en redes sociales y ofrecemos Community Management para los mismos. También creamos campañas segmentadas hacia el público deseado en Facebook, Instagram o WhatsApp.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Database Marketing
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Desarrollamos estrategias para aumentar la base de datos de sus clientes a través de distintos métodos de captación de información como son: sitios web, apps móviles, encuestas y otros canales digitales.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Equipo-->
+  <section class="team text-center" id="team">
+    <div class="container p-5">
+      <h1 class="text-center text-white"> Equipo</h1>
+      <p class="text-white">
+        Conoce a los intengrantes de nuestro equipo</p>
+      <div class="row">
+        <!-- miembros-->
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/person.png"  class="img-fluid rounded-circle w-50" alt="persona">
+              <h3>Nombre</h3>
+              <p>
+                lorem ipsum dolor sit
+              </p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                    <!--dentro de la etiqueta en href poner el link, Copiae y pegar de font awesome, para que se abra en otra pestaña se agrega despues del <a href="link" target="_blank") -->
+                     <a href="#">
+                       <i class="fab fa-facebook-f"></i>
+                     </a>
+                </div>
+                <div class="p-4">
+                   <a href="#"><i class="fab fa-twitter"></i></a>
+                 </div>
+                 <div class="p-4">
+                   <a href="#"><i class="fab fa-instagram"></i></a>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/person.png"  class="img-fluid rounded-circle w-50" alt="persona">
+              <h3>Nombre</h3>
+              <p>
+                lorem ipsum dolor sit
+              </p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                    <!--dentro de la etiqueta en href poner el link, Copiae y pegar de font awesome, para que se abra en otra pestaña se agrega despues del <a href="link" target="_blank") -->
+                     <a href="#">
+                       <i class="fab fa-facebook-f"></i>
+                     </a>
+                </div>
+                <div class="p-4">
+                   <a href="#"><i class="fab fa-twitter"></i></a>
+                 </div>
+                 <div class="p-4">
+                   <a href="#"><i class="fab fa-instagram"></i></a>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/person.png"  class="img-fluid rounded-circle w-50" alt="persona">
+              <h3>Nombre</h3>
+              <p>
+                lorem ipsum dolor sit
+              </p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                    <!--dentro de la etiqueta en href poner el link, Copiae y pegar de font awesome, para que se abra en otra pestaña se agrega despues del <a href="link" target="_blank") -->
+                     <a href="#">
+                       <i class="fab fa-facebook-f"></i>
+                     </a>
+                </div>
+                <div class="p-4">
+                   <a href="#"><i class="fab fa-twitter"></i></a>
+                 </div>
+                 <div class="p-4">
+                   <a href="#"><i class="fab fa-instagram"></i></a>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/person.png"  class="img-fluid rounded-circle w-50" alt="persona">
+              <h3>Nombre</h3>
+              <p>
+                lorem ipsum dolor sit
+              </p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                    <!--dentro de la etiqueta en href poner el link, Copiae y pegar de font awesome, para que se abra en otra pestaña se agrega despues del <a href="link" target="_blank") -->
+                     <a href="#">
+                       <i class="fab fa-facebook-f"></i>
+                     </a>
+                </div>
+                <div class="p-4">
+                   <a href="#"><i class="fab fa-twitter"></i></a>
+                 </div>
+                 <div class="p-4">
+                   <a href="#"><i class="fab fa-instagram"></i></a>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--Contacto input se puede buscar en documentacion-->
+<section class="gb-light py-5" id="Contacto">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <h3>Contacto</h3>
+        <p>Envianos un mensaje</p>
+        <form action="">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <i class="fas fa-user input-group-text"></i>
+            </div>
+             <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <i class="fas fa-envelope input-group-text"></i>
+            </div>
+             <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <i class="fas fa-pencil-alt input-group-text"></i>
+            </div>
+             <textarea name="" rows="8" cols="80" placeholder="Escribe tu mensaje"
+             class="form-control"></textarea>
+          </div>
+          <button class="btn btn-primary btn-lg btn-block">
+            enviar
+          </button>
+        </form>
+      </div>
+      <div class="col-lg-3 align-self-center">
+        <img src="img/logo.png" alt="logo">
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container p-3 text-white text-center">
+    <p>Querétaro, Qro.  Calle De Posadas #25 Int. #C1 – Col. Lomas De San Pedrito, CP 76148
+      <p>442 187 2792 – esosa@emerka.com.mx</p>
+      <p>Copyright 2019</p>
+    </p>
+
+  </div>
+</footer>
+  <!-- BOOTSTRAP JAVASCRIP-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- scrips para scroll reveal-->
+  <script>
+   window.sr = ScrollReveal ();
+
+   sr.reveal('.navbar', {
+      duration: 2000,
+      origin: 'bottom'
+    });
+
+    sr.reveal('#caracteristicas', {
+      duration: 2000,
+      origin: 'top',
+      distance: '300px'
+    });
+
+    sr.reveal('#about', {
+      duration: 2000,
+      origin: 'left',
+      distance: '300px',
+      viewFactor: 0.2
+    });
+
+    sr.reveal('#team', {
+      duration: 2000,
+      delay: 1000,
+      origin: 'bottom'
+    });
+
+    sr.reveal('#Contacto', {
+          duration: 2000,
+          origin: 'right',
+          distance: '300px'
+        });
+
+
+  </script>
+  </body>
+</html>
